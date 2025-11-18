@@ -11,3 +11,6 @@ val_labels = val_images.replace("/images", "/labels")
 
 print("val images:", val_images, "exists?", os.path.isdir(val_images))
 print("val labels:", val_labels, "exists?", os.path.isdir(val_labels))
+
+
+#git test
