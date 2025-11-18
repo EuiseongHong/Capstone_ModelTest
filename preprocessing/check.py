@@ -1,4 +1,7 @@
 import os, yaml
+
+
+######경로변경
 cfg = yaml.safe_load(open("datasets/dataset.yaml"))
 
 def resolve(img_key):
